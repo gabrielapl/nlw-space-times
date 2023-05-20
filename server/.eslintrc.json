@@ -3,6 +3,12 @@
     "@rocketseat/eslint-config/node"
   ],
   "rules": {
-    "camecase": "off"
+    "camelcase": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
